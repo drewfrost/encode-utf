@@ -1,7 +1,6 @@
 
 html
-  body
-    ul
-      - var results = answers
-      each res in results
-      li = res
+    body
+    a(href="/") Home
+    each byte, index in bytes
+          p #{index}: #{byte.data} 
